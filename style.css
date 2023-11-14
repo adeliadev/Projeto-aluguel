@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+#geral {
+  margin: 0px auto;
+  width: 980px;
+  height: 1080px;
+  background-color: #ffffff;
+}
+
+#topo {
+  height: 105px;
+  background-color: #1a3243;
+}
+
+#topo-titulo {
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#topo-titulo-1 {
+  width: 220px;
+  margin-left: 50px;
+}
+
+#topo-titulo-1-h1 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #1bb4e8;
+}
+
+#topo-titulo-1-h2 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+}
+
+#topo-titulo-img {
+  float: left;
+}
+
+#menu {
+  width: 600px;
+  list-style: none;
+  position: relative;
+  top: -20px;
+  left: 380px;
+}
+
+#menu li {
+  display: inline-block;
+  border-right: 1px solid white;
+}
+
+#menu li:last-child {
+  border: 0px;
+}
+
+#menu li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+#menu li a.ativo {
+  color: #1bb4e8;
+}
+
+#barco-principal {
+  height: 495px;
+  background-image: url("assets/imagens/barcoprincipal.jpg");
+}
+
+#barco-principal-info {
+  background-color: #1a3243;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  top: 200px;
+  left: 520px;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+#barco-principal-info-1 {
+  font-size: 24px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  width: 360px;
+  margin-bottom: 30px;
+}
+
+span {
+  color: #c6b07f;
+  font-size: 20px;
+}
+
+#barco-principal-info-2 {
+  width: 360px;
+}
+
+#barco-principal-info-2 img {
+  display: inline-block;
+}
+
+#barco-principal-info-2 p {
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  width: 290px;
+}
+
+#conteudo {
+  background-color: white;
+  margin-top: 15px;
+}
+
+#conteudo-destinos {
+  width: 455px;
+  border: 1px solid white;
+  margin-left: 20px;
+  float: left;
+}
+
+#conteudo-destinos-topo {
+  background-color: #1bb4e8;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#conteudo-destinos-topo h3 {
+  font-size: 24px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  width: 120px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#conteudo-destinos-corpo h4 {
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#conteudo-destinos-corpo p {
+  font-size: 14px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+#conteudo-nossafrota {
+  width: 455px;
+  height: 416px;
+  border: 1px solid white;
+  margin-right: 20px;
+  float: right;
+}
+
+#conteudo-nossafrota-topo {
+  background-color: #c6b07f;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#conteudo-nossafrota-topo h3 {
+  font-size: 24px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  width: 150px;
+}
+
+#conteudo-nossafrota-corpo-h4 {
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#conteudo-nossafrota-corpo-p {
+  font-size: 14px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+#conteudo-nossafrota-rodape-img {
+  margin-bottom: 15px;
+}
+
+#conteudo-nossafrota-rodape-b1 {
+  width: 203px;
+  float: left;
+  margin-left: 20px;
+}
+
+#conteudo-nossafrota-rodape-b2 {
+  width: 203px;
+  float: right;
+  margin-right: 20px;
+}
+
+.imagem1, .imagem2{
+    padding-bottom: 5px;
+}
+
+* p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape{
+    margin: 0px auto;
+    width: 980px;
+    padding: 20px;
+    text-align: center;
+    background-color: #dbd7d7;
+}
+
+
+
